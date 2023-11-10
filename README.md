@@ -8,8 +8,8 @@ Django app used to process RTSP streams
 
 Create a virtual environment
 
-    $ python -m venv venv
-    $ venv\Scripts\activate.bat
+    $ python -m venv venv_sf
+    $ venv_sf\Scripts\activate.bat
     
 Install project dependencies:
 
@@ -18,3 +18,6 @@ Install project dependencies:
 You can now run the development server:
 
     $ python manage.py runserver
+
+
+
