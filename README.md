@@ -1,15 +1,15 @@
-# Introduction
+# IP Security Camera Management Backend with Django
 
-Django app used to process RTSP streams
+This Django backend application is designed to manage IP security cameras, facial recognition and handle API calls, particularly for processing Real-Time Streaming Protocol (RTSP) streams.
 
-# Getting Started
+## Getting Started
 
 ### Virtualenv
 
 Create a virtual environment
 
-    $ python -m venv venv_sf
-    $ venv_sf\Scripts\activate.bat
+    $ python -m venv venv
+    $ venv\Scripts\activate.bat
     
 Install project dependencies:
 
@@ -18,6 +18,3 @@ Install project dependencies:
 You can now run the development server:
 
     $ python manage.py runserver
-
-
-
